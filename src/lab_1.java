@@ -1,16 +1,16 @@
 import java.util.Scanner;
 public class lab_1 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("Программа подсчёта суммы трёх чисел");
-        System.out.println("Введите первое число:");
+        System.out.print("Введите первое число: ");
         Scanner scan1 = new Scanner(System.in);
         int number1 = scan1.nextInt();
-        System.out.println("Введите второе число");
+        System.out.print("Введите второе число: ");
         Scanner scan2 = new Scanner(System.in);
         int number2 = scan2.nextInt();
         int sum2 = number1 + number2;
 
-        System.out.println("Введите третье число");
+        System.out.print("Введите третье число: ");
         Scanner scan3 = new Scanner(System.in);
         int number3 = scan3.nextInt();
         int result = sum2 + number3;
